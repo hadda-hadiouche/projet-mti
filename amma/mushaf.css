@@ -1,0 +1,20 @@
+mushaf { background-color: #C48793 }
+sura{float:left;
+color:#f6f6f6;
+font-size:20px;}
+aya{display:inline;}
+[name]::before{
+float:center;
+content:attr(name);
+color:#A74AC7;
+font-size:50px;
+text-decoration:underline;
+padding:10px 10px 10px 10px;
+border-radius:20px 20px 20px 20px;
+text-align:center;
+}
+
+
+
+
+

@@ -1,0 +1,14 @@
+<!ELEMENT etudians (etudian*)>
+<!ELEMENT etudian(Matricule,Nom,Prenom,moyen,creadit,unit_acuise,resultat)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Prenom (#PCDATA)>
+<!ELEMENT moyen (M.S1,M.S2,moy_annuel)>
+<!ELEMENT M.S1 (#PCDATA)>
+<!ELEMENT M.S2 (#PCDATA)>
+<!ELEMENT moy_annuel (#PCDATA)>
+<!ELEMENT creadit (creadit_s1,creadit_s2)>
+<!ELEMENT creadit_s1 (#PCDATA)>
+<!ELEMENT creadit_s2 (#PCDATA)>
+<!ATTLIST Matricule CDATA #REQUIRED>
+
+
